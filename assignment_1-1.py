@@ -1,5 +1,2 @@
-def assignment1_1():
-    print("Hello World")
-    return True
-
-assignment1_1()
+# Anaconda Python installed
+# IDE of choice: Visual Studios Code
