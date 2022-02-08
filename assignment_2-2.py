@@ -30,10 +30,10 @@ lst = [1,[2,3]]
 tpl = tuple(lst)
 
 #7. With a single set function can you turn the word 'Mississippi' to distinct character word.
-mySet = set('Mississippi')
+my_set = set('Mississippi')
 
 #8. Can you add X tot he above created set
-mySet.add('X')
+my_set.add('X')
 
 #9. Output of set([1,1,2,3])
     # Answer: {1,2,3}
