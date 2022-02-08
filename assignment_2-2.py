@@ -87,7 +87,7 @@ class MyString:
     def getString(self):
         self.string = input("Add your string: ")
     def printString(self):
-        print(self.string)
+        print(self.string.upper())
 
 string = MyString()
 string.getString()
