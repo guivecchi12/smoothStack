@@ -21,7 +21,6 @@ def main():
         for s in a:
             if type(s) is not int:
                 check = str(s).replace(" ", "").replace(',', '').replace('!', '').lower()
-                print(check)
 
                 if check == check[::-1]:
                     answer.append('Y')
