@@ -12,7 +12,7 @@ def main():
 
     # 3. Print "Hello World" on the console output. Print output "Hello World : 10" Make sure capitalization and spacing matches.
         print("Hello World")
-        print("Hello World : ", 10)
+        print("Hello World :", 10)
 
     # 4. Mathematical calculation excercise:
         def monthlyPayments(p, r, l):

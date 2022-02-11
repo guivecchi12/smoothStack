@@ -65,9 +65,9 @@ def string_manipulation(word):
 #10. Write a function which gives lesser than a given number if both the numbers are even, but returns greater if one or both or odd.
 def lesser(x, y):
     if x % 2 == 0 and y % 2 == 0:
-        return 'lesser'
+        return "The lesser number is " + str(min(x,y))
     else:
-        return 'greater'
+        return 'The greater number is ' + str(max(x, y))
 
 #11. Write a function which takes  two-strings and returns true if both the strings start with the same letter.
 def same_start(a, b):
@@ -76,8 +76,6 @@ def same_start(a, b):
 #12. Given a value,return a value which is twice as far as other side of 7
 def twice_from_seven(val):
     return abs((val - 7) * 2)
-
-print(twice_from_seven(5))
 
 #13. A function that capitalizes first and fourth character of a word in a string.
 def cap_first_and_fourth(word):

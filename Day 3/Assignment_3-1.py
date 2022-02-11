@@ -70,7 +70,7 @@ def myType(datalist):
     for i in datalist:
         print(type(i))
 
-myType([1452, 11.23, 1+2j, True, 'w3resource', (0,-1), [5,12], {"class":'V', "section": 'A'}])
+# myType([1452, 11.23, 1+2j, True, 'w3resource', (0,-1), [5,12], {"class":'V', "section": 'A'}])
 
 #9. Write a Python program that prints all the numbers from 0 to 6 except 3 and 6.
 def continuePractice():
