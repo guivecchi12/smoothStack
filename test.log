@@ -1,0 +1,3 @@
+INFO:root:File loaded successfully
+INFO:root:Date of Data extracted correctly
+INFO:root:{'Calls Offered: ': 16915, 'Abandon after 30s : ': 0.0232, 'FCR : ': 0.865, 'DSAT : ': 0.142, 'CSAT : ': 0.783}
