@@ -2,15 +2,26 @@ import os
 import log
 import openpyxl
 import datetime
+import shutil
 
 def find_file():
     try:
         path_array = []
-        for file in os.listdir('./mini_project'):
+        for file in os.listdir('./mini_project/import'):
             if file.startswith("expedia_report_monthly_"):
+                print(file)
                 path = './mini_project/' + file
                 log.log("File loaded successfully")
                 path_array.append(path)
+            else:
+                path = './mini_project/import/' + file
+                src_folder = "./mini_project/error_files//"
+                if os.path.exists(src_folder):
+                    print("here", path)
+                    shutil.move(path, src_folder)
+                    print("after move")
+                else:
+                    print("folder not found")
         if len(path_array) > 0:
             return path_array
     except:
@@ -34,7 +45,6 @@ def read_file(file, date):
                     
                     data_month = '' + date[2]
                     log.log("Data for {}: \n {}".format(data_month, data))
-
                     return data
                 except:
                     log.log("Data was not able to load")
@@ -69,3 +79,5 @@ def find_column(ws, name):
         for y in range(1, ws.max_row + 1):
             if ws.cell(row = y, column = x).value == name:
                 return x
+
+find_file()

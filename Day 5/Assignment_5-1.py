@@ -1,7 +1,6 @@
 # Day 5
 
 def body_mass_index(input_data):
-    num_people = input_data[0]
     people = input_data[1:]
 
     bmi = lambda data: data[0] / (data[1] ** 2)

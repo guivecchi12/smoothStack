@@ -16,3 +16,31 @@ INFO:root:Date of Data extracted correctly
 INFO:root:Column and Row of data found
 INFO:root:Data for March: 
  {'Calls Offered': 22343, 'Abandon after 30s': 0.0305, 'FCR': 0.86, 'DSAT': 0.18, 'CSAT': 0.744}
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:Data was not able to load
+INFO:root:Date asked for March
+INFO:root:Date of Data extracted correctly
+INFO:root:Data was not able to load
+INFO:root:Error while loading file
+INFO:root:Error while loading file
+INFO:root:Error while loading file
+INFO:root:Error while loading file
+INFO:root:Error while loading file
+INFO:root:Error while loading file
+INFO:root:Error while loading file
+INFO:root:Error while loading file
+INFO:root:Error while loading file
+INFO:root:Error while loading file
+INFO:root:Error while loading file
+INFO:root:Error while loading file
+INFO:root:Error while loading file
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Error while loading file
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
