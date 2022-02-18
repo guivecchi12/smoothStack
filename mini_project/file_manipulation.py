@@ -7,16 +7,16 @@ import shutil
 def find_file():
     try:
         path_array = []
-        for file in os.listdir('./mini_project/file.lst'):
+        for file in os.listdir('./mini_project/export_files'):
             if file.startswith("expedia_report_monthly_"):
-                path = './mini_project/file.lst/' + file
+                path = './mini_project/export_files/' + file
                 log.log("File loaded successfully")
                 path_array.append(path)
-                src_folder = "/mini_project/file.lst//"
+                src_folder = "/mini_project/export_files//"
                 if os.path.exists(src_folder):
                     shutil.move(path, src_folder)
             else:
-                file_path = './mini_project/file.lst/' + file
+                file_path = './mini_project/export_files/' + file
                 error_file(file_path)
 
         if len(path_array) > 0:
@@ -166,13 +166,13 @@ def arquive_file(file):
         shutil.move(file, src_folder)
 
 def error_file(error_file):
-    error_f = error_file.split('./mini_project/file.lst/')[1]
+    error_f = error_file.split('./mini_project/export_files/')[1]
     src_folder = "./mini_project/error_files//"
     log.log("File being moved to Error folder {}".format(error_f))
 
     if len(os.listdir('./mini_project/error_files')) > 0:
         for file in os.listdir('./mini_project/error_files'):
-            if file == error_file.split('./mini_project/file.lst/')[1]:
+            if file == error_file.split('./mini_project/export_files/')[1]:
                 break
             else:
                 if os.path.exists(src_folder):
@@ -183,8 +183,8 @@ def error_file(error_file):
             shutil.move(error_file, src_folder)
             log.log("File moved successfully into Error_Files folder")
 
-# get_data_from_sheet('./mini_project/file.lst/expedia_report_monthly_march_2018.xlsx', 'VOC Rolling MoM', ['2018', 1, 'March'])
-# wb = read_file('./mini_project/file.lst/expedia_report_monthly_january_2018.xlsx')
+# get_data_from_sheet('./mini_project/export_files/expedia_report_monthly_march_2018.xlsx', 'VOC Rolling MoM', ['2018', 1, 'March'])
+# wb = read_file('./mini_project/export_files/expedia_report_monthly_january_2018.xlsx')
 # ws = wb.active
 # date = ['2018', 1, 'January']
 # data_date = datetime.datetime(int(date[0]), date[1], 1)
