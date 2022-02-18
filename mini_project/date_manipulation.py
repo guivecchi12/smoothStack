@@ -1,4 +1,5 @@
 import log
+import file_manipulation
 
 def month_year(file):
     try:
@@ -9,9 +10,14 @@ def month_year(file):
             int(year)
             if(not year or len(year) != 4 or int(year) < 0):
                 log.log("date inputed incorrectly")
+                return -1
             else:
                 log.log("Date asked for {}".format(month))
-                return[year, month_to_num(month), month]
+                num_month = month_to_num(month)
+                if num_month == -1:
+                    return -1
+                else:
+                    return[year, num_month, month]
 
         except:
             log.log("File year was inputed incorrectly")
