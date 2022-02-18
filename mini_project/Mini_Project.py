@@ -7,6 +7,5 @@ def main():
     for f in files:
         date = date_manipulation.month_year(f)
         data.append(file_manipulation.read_file(f, date))
-    
 if __name__ == '__main__':
     main()

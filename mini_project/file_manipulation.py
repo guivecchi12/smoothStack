@@ -9,19 +9,15 @@ def find_file():
         path_array = []
         for file in os.listdir('./mini_project/import'):
             if file.startswith("expedia_report_monthly_"):
-                print(file)
-                path = './mini_project/' + file
+                path = './mini_project/import/' + file
                 log.log("File loaded successfully")
                 path_array.append(path)
             else:
                 path = './mini_project/import/' + file
                 src_folder = "./mini_project/error_files//"
                 if os.path.exists(src_folder):
-                    print("here", path)
                     shutil.move(path, src_folder)
-                    print("after move")
-                else:
-                    print("folder not found")
+
         if len(path_array) > 0:
             return path_array
     except:
@@ -79,5 +75,3 @@ def find_column(ws, name):
         for y in range(1, ws.max_row + 1):
             if ws.cell(row = y, column = x).value == name:
                 return x
-
-find_file()
