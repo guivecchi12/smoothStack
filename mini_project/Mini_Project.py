@@ -3,7 +3,7 @@ import date_manipulation
 
 def main():
     files = file_manipulation.find_file()
-    file_lst = open('file.lst', "x")
+    file_lst = open('./mini_project/file.lst', "x")
     if files:
         for f in files:
             date = date_manipulation.month_year(f)

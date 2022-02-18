@@ -121,6 +121,7 @@ def get_data_from_sheet(file, sheet, date):
         if not my_col:
             error_file(file)
             log.log("Column not found, file moved to Error folder")
+            
         # Check Promoters
         my_row = find_row(ws2, 'Promoters')
         promoters = check_score('Promoters', ws2.cell(row = my_row, column = my_col).value)
