@@ -1,102 +1,290 @@
 INFO:root:File loaded successfully
-INFO:root:Date asked for January
-INFO:root:Date of Data extracted correctly
-INFO:root:Column and Row of data found
-INFO:root:Data for January: 
- {'Calls Offered': 16915, 'Abandon after 30s': 0.0232, 'FCR': 0.865, 'DSAT': 0.142, 'CSAT': 0.783}
-INFO:root:File loaded successfully
 INFO:root:File loaded successfully
 INFO:root:Date asked for January
 INFO:root:Date of Data extracted correctly
 INFO:root:Column and Row of data found
 INFO:root:Data for January: 
- {'Calls Offered': 16915, 'Abandon after 30s': 0.0232, 'FCR': 0.865, 'DSAT': 0.142, 'CSAT': 0.783}
+ {'Calls Offered': 16915, 'Abandon after 30s': '2.32%', 'FCR': '86.50%', 'DSAT': '14.20%', 'CSAT': '78.30%'}
 INFO:root:Date asked for March
 INFO:root:Date of Data extracted correctly
 INFO:root:Column and Row of data found
 INFO:root:Data for March: 
- {'Calls Offered': 22343, 'Abandon after 30s': 0.0305, 'FCR': 0.86, 'DSAT': 0.18, 'CSAT': 0.744}
-INFO:root:File loaded successfully
-INFO:root:File loaded successfully
-INFO:root:Date asked for January
-INFO:root:Date of Data extracted correctly
-INFO:root:Data was not able to load
-INFO:root:Date asked for March
-INFO:root:Date of Data extracted correctly
-INFO:root:Data was not able to load
-INFO:root:Error while loading file
-INFO:root:Error while loading file
-INFO:root:Error while loading file
-INFO:root:Error while loading file
-INFO:root:Error while loading file
-INFO:root:Error while loading file
-INFO:root:Error while loading file
-INFO:root:Error while loading file
-INFO:root:Error while loading file
-INFO:root:Error while loading file
-INFO:root:Error while loading file
-INFO:root:Error while loading file
-INFO:root:Error while loading file
-INFO:root:File loaded successfully
-INFO:root:File loaded successfully
-INFO:root:File loaded successfully
-INFO:root:File loaded successfully
-INFO:root:Error while loading file
-INFO:root:File loaded successfully
-INFO:root:File loaded successfully
-INFO:root:File loaded successfully
-INFO:root:File loaded successfully
-INFO:root:File loaded successfully
-INFO:root:File loaded successfully
-INFO:root:Date asked for January
-INFO:root:Date of Data extracted correctly
-INFO:root:Data was not able to load
-INFO:root:Date asked for March
-INFO:root:Date of Data extracted correctly
-INFO:root:Data was not able to load
-INFO:root:File loaded successfully
-INFO:root:File loaded successfully
-INFO:root:File loaded successfully
-INFO:root:File loaded successfully
-INFO:root:Date asked for January
-INFO:root:Date of Data extracted correctly
-INFO:root:Data was not able to load
-INFO:root:Date asked for March
-INFO:root:Date of Data extracted correctly
-INFO:root:Data was not able to load
-INFO:root:File loaded successfully
-INFO:root:File loaded successfully
-INFO:root:Date asked for January
-INFO:root:Date of Data extracted correctly
-INFO:root:Data was not able to load
-INFO:root:Date asked for March
-INFO:root:Date of Data extracted correctly
-INFO:root:Data was not able to load
-INFO:root:File loaded successfully
-INFO:root:File loaded successfully
-INFO:root:Date asked for January
-INFO:root:Date of Data extracted correctly
-INFO:root:Data was not able to load
-INFO:root:Date asked for March
-INFO:root:Date of Data extracted correctly
-INFO:root:Data was not able to load
-INFO:root:File loaded successfully
-INFO:root:File loaded successfully
-INFO:root:Date asked for January
-INFO:root:Date of Data extracted correctly
-INFO:root:Data was not able to load
-INFO:root:Date asked for March
-INFO:root:Date of Data extracted correctly
-INFO:root:Data was not able to load
+ {'Calls Offered': 22343, 'Abandon after 30s': '3.05%', 'FCR': '86.00%', 'DSAT': '18.00%', 'CSAT': '74.40%'}
 INFO:root:File loaded successfully
 INFO:root:File loaded successfully
 INFO:root:Date asked for January
 INFO:root:Date of Data extracted correctly
 INFO:root:Column and Row of data found
 INFO:root:Data for January: 
- {'Calls Offered': 16915, 'Abandon after 30s': 0.0232, 'FCR': 0.865, 'DSAT': 0.142, 'CSAT': 0.783}
+ {'Calls Offered': 16915, 'Abandon after 30s': '2.32%', 'FCR': '86.50%', 'DSAT': '14.20%', 'CSAT': '78.30%'}
 INFO:root:Date asked for March
 INFO:root:Date of Data extracted correctly
 INFO:root:Column and Row of data found
 INFO:root:Data for March: 
- {'Calls Offered': 22343, 'Abandon after 30s': 0.0305, 'FCR': 0.86, 'DSAT': 0.18, 'CSAT': 0.744}
+ {'Calls Offered': 22343, 'Abandon after 30s': '3.05%', 'FCR': '86.00%', 'DSAT': '18.00%', 'CSAT': '74.40%'}
+INFO:root:Date asked for January
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:Column and Row of data found
+INFO:root:Data for January: 
+ {'Calls Offered': 16915, 'Abandon after 30s': '2.32%', 'FCR': '86.50%', 'DSAT': '14.20%', 'CSAT': '78.30%'}
+INFO:root:Date asked for March
+INFO:root:Date of Data extracted correctly
+INFO:root:Column and Row of data found
+INFO:root:Data for March: 
+ {'Calls Offered': 22343, 'Abandon after 30s': '3.05%', 'FCR': '86.00%', 'DSAT': '18.00%', 'CSAT': '74.40%'}
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:Date asked for March
+INFO:root:Date of Data extracted correctly
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:Column and Row of data found
+INFO:root:Data for January: 
+ {'Calls Offered': 16915, 'Abandon after 30s': '2.32%', 'FCR': '86.50%', 'DSAT': '14.20%', 'CSAT': '78.30%'}
+INFO:root:Date asked for March
+INFO:root:Date of Data extracted correctly
+INFO:root:Column and Row of data found
+INFO:root:Data for March: 
+ {'Calls Offered': 22343, 'Abandon after 30s': '3.05%', 'FCR': '86.00%', 'DSAT': '18.00%', 'CSAT': '74.40%'}
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:Date asked for March
+INFO:root:Date of Data extracted correctly
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:Column and Row of data found
+INFO:root:Data for January: 
+ {'Calls Offered': 16915, 'Abandon after 30s': '2.32%', 'FCR': '86.50%', 'DSAT': '14.20%', 'CSAT': '78.30%'}
+INFO:root:Date asked for March
+INFO:root:Date of Data extracted correctly
+INFO:root:Column and Row of data found
+INFO:root:Data for March: 
+ {'Calls Offered': 22343, 'Abandon after 30s': '3.05%', 'FCR': '86.00%', 'DSAT': '18.00%', 'CSAT': '74.40%'}
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:Date asked for March
+INFO:root:Date of Data extracted correctly
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Error while loading file
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Error while loading file
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Error while loading file
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Error while loading file
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Error while loading file
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Error while loading file
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Error while loading file
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Error while loading file
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Error while loading file
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Error while loading file
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Error while loading file
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Error while loading file
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Error while loading file
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Error while loading file
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Error while loading file
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Error while loading file
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Error while loading file
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:Column and Row of data found
+INFO:root:Data for January: 
+ {'Calls Offered': 16915, 'Abandon after 30s': '2.32%', 'FCR': '86.50%', 'DSAT': '14.20%', 'CSAT': '78.30%'}
+INFO:root:Date asked for March
+INFO:root:Date of Data extracted correctly
+INFO:root:Column and Row of data found
+INFO:root:Data for March: 
+ {'Calls Offered': 22343, 'Abandon after 30s': '3.05%', 'FCR': '86.00%', 'DSAT': '18.00%', 'CSAT': '74.40%'}
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:Column and Row of data found
+INFO:root:Data for January: 
+ {'Calls Offered': 16915, 'Abandon after 30s': '2.32%', 'FCR': '86.50%', 'DSAT': '14.20%', 'CSAT': '78.30%'}
+INFO:root:Date asked for March
+INFO:root:Date of Data extracted correctly
+INFO:root:Column and Row of data found
+INFO:root:Data for March: 
+ {'Calls Offered': 22343, 'Abandon after 30s': '3.05%', 'FCR': '86.00%', 'DSAT': '18.00%', 'CSAT': '74.40%'}
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:Date asked for March
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Column and Row of data found
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:No Column found matching the date/search information
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:No row found matching the date/field information
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Could not find the field Passives
+INFO:root:No row found matching the date/field information
+INFO:root:Date of Data extracted correctly
+INFO:root:Could not find the field Passives
+INFO:root:No row found matching the date/field information
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:Could not find the field Passives
+INFO:root:Date of Data extracted correctly
+INFO:root:Could not find the field Passives
+INFO:root:Date of Data extracted correctly
+INFO:root:Could not find the field Passives
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:No row found matching the date/field information
+INFO:root:Date of Data extracted correctly
+INFO:root:Could not find the field Dectractors
+INFO:root:Date of Data extracted correctly
+INFO:root:Could not find the field Dectractors
+INFO:root:Date of Data extracted correctly
+INFO:root:Date of Data extracted correctly
+INFO:root:In Net Promoters Score: Promoters: good 
+	Passives: bad 
+	Dectractors: bad
+INFO:root:Date of Data extracted correctly
+INFO:root:In Net Promoters Score: 
+	Promoters: good 
+	Passives: bad 
+	Dectractors: bad
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:Data for January: 
+ {'Calls Offered': 16915, 'Abandon after 30s': '2.32%', 'FCR': '86.50%', 'DSAT': '14.20%', 'CSAT': '78.30%'}
+INFO:root:Date asked for March
+INFO:root:Date of Data extracted correctly
+INFO:root:Data for March: 
+ {'Calls Offered': 22343, 'Abandon after 30s': '3.05%', 'FCR': '86.00%', 'DSAT': '18.00%', 'CSAT': '74.40%'}
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:In Net Promoters Score: 
+	Promoters: good 
+	Passives: bad 
+	Dectractors: bad
+INFO:root:Date asked for March
+INFO:root:Date of Data extracted correctly
+INFO:root:No Column found matching the date/field information
+INFO:root:File loaded successfully
+INFO:root:File loaded successfully
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:Data for January: 
+ {'Calls Offered': 16915, 'Abandon after 30s': '2.32%', 'FCR': '86.50%', 'DSAT': '14.20%', 'CSAT': '78.30%'}
+INFO:root:Date asked for March
+INFO:root:Date of Data extracted correctly
+INFO:root:Data for March: 
+ {'Calls Offered': 22343, 'Abandon after 30s': '3.05%', 'FCR': '86.00%', 'DSAT': '18.00%', 'CSAT': '74.40%'}
+INFO:root:Date asked for January
+INFO:root:Date of Data extracted correctly
+INFO:root:Date asked for March
+INFO:root:Date of Data extracted correctly
+INFO:root:No Column found matching the date/field information
